@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/src/script.js" defer></script>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body class="font-manrope bg-background-color h-screen flex ">
+    <div class="card w-72 h-96 flex flex-col justify-center items-center gap-10
+     bg-card-color mx-auto my-auto relative rounded-lg uppercase font-bold text-xs
+     xl:w-2/5">
+    <h1 class="absolute top-8 text-green-color font-normal tracking-widest
+    xl:text-base">Advice <span id="idContainer"></span></h1>
+    <div id="adviceContainer" class="text-advice-color text-center w-5/6 text-lg mb-8
+    xl:text-2xl"></div>
+
+    <img class="mobile w-5/6 absolute bottom-16 xl:hidden" src="/images/pattern-divider-mobile.svg">
+    <img class="desktop hidden w-5/6 absolute bottom-24 xl:block" src="/images/pattern-divider-desktop.svg">
+    <button id="getAdviceButton" class="px-4 py-4 bg-green-color rounded-full absolute -bottom-6
+    hover:bg-button-hover">
+        <img src="/images/icon-dice.svg">
+    </button>
+    
+
+    </div>
+</body>
+</html>
